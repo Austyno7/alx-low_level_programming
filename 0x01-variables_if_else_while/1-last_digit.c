@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: 'get the last digit of a number'
+ * Description: 'check for number if it is positive or negative'
  * Return: always 0
  */
 int main(void)
@@ -26,6 +26,5 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and less than 6 and not 0\n", n, ld);
 	}
-	printf("\n");
 	return (0);
 }
