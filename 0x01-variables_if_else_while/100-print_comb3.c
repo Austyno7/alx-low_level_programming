@@ -14,8 +14,9 @@ for (dig_2 = dig_1 + 1; dig_2 < 10; dig_2++)
 		{
 putchar((dig_1 % 10) + '0');
 putchar((dig_2 % 10) + '0');
-if (dig_1 == 0 && dig_2 == 9)
+if (dig_1 == 8 && dig_2 == 9)
 continue;
+
 putchar(',');
 putchar(' ');
 		}
