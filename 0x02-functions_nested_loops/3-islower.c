@@ -1,6 +1,7 @@
 include "main.h"
 /**
  *_islower -shows 1 if the input is a
+ *lowercase character.Another case, shows
  *0
  *
  *@c:The character in ASCII code
