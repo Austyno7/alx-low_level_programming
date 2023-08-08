@@ -6,8 +6,8 @@
 
 /**
  * main - program that takes in all integer arguments and return the sum
- * @argc - number of command line arguments
- * @argv - array name
+ * @argc: Number of command line arguments
+ * @argv: Array name
  * Return: 1 if a non-integer is among the passed in arguments, 0 otherwise
  */
 
