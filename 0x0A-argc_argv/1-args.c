@@ -4,7 +4,7 @@
 /**
  * main - print the number of arguments passed to the program
  * @argc: number of arguments
- * @argv: array of arguments
+ * @argv: array name
  *
  * Return: Always 0 (Success)
  */
@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
 	if (argc == 1)
 		printf("%d\n", argc - 1);
 	else
+	{
 		for (i = 0; *argv; i++, argv++)
 			;
 	printf("%d\n", i - 1);
